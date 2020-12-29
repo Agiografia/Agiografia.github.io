@@ -1,0 +1,32 @@
+@font-face {
+    font-family: byzantium;
+    src: url(../media/fonts/GFSIgnacio.otf);
+}
+
+body, main{
+    font-family: 'Noto Serif', serif;
+    background: #8e2c17;
+    color: goldenrod;
+    margin: 0 3% 0 3%;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer{
+    font-size: 7px;
+}
+
+#logo{
+    width: 235px;
+}
+
+.big-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.medium-title{
+    font-family: 'byzantium';
+    margin-top: 10px;
+}
