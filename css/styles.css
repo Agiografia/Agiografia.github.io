@@ -3,7 +3,7 @@
     src: url(../media/fonts/GFSIgnacio.otf);
 }
 
-body, main{
+body{
     font-family: 'Noto Serif', serif;
     background: #8e2c17;
     color: goldenrod;
@@ -11,6 +11,10 @@ body, main{
     padding: 0;
     text-align: center;
     letter-spacing: 1px;
+}
+
+main{
+    margin-bottom: 28px;
 }
 
 footer{
@@ -29,4 +33,22 @@ footer{
 .medium-title{
     font-family: 'byzantium';
     margin-top: 10px;
+}
+
+.social-link{
+    display: block;
+    color: gold;
+    text-decoration: none;
+    margin: 15px auto 15px auto;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid goldenrod;
+    border-radius: 8px;
+}
+
+.social-link:hover{
+    background-color: goldenrod;
+    color: #8e2c17;
+    font-weight: bold;
 }
